@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with props 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-end",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Image
+    source={1}
+    style={
+      Object {
+        "borderRadius": 50,
+        "height": 60,
+        "marginLeft": "1%",
+        "width": 60,
+      }
+    }
+  />
+  <View>
+    <Text
+      style={
+        Object {
+          "color": "#153776",
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "paddingLeft": "5%",
+          "textAlign": "left",
+        }
+      }
+      testID="msgTitle"
+    >
+      C señor
+    </Text>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#dcdcdc",
+          "borderRadius": 10,
+          "justifyContent": "space-between",
+          "margin": "2%",
+          "marginLeft": "5%",
+          "marginRight": "20%",
+          "padding": "4%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 16,
+          }
+        }
+      >
+        C señoooooor
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#6a6a6a",
+            "fontSize": 12,
+          }
+        }
+      >
+        12:17 PM
+      </Text>
+    </View>
+  </View>
+</View>
+`;
